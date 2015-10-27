@@ -96,7 +96,7 @@ fn main() {
 
 	let mut input = String::new();
 
-	let mut game_grid = random_grid(0.0);
+	let mut game_grid = random_grid(0.314159265);
 
 	loop {
 
