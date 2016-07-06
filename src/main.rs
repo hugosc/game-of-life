@@ -29,8 +29,8 @@ impl GameGrid {
 			neighbour_count += if x > 0  && y > 0  { grid[x-1][y-1] as usize } else { 0 };
 			neighbour_count += if x < 15           { grid[x+1][y]   as usize } else { 0 };
 			neighbour_count += if y < 15           { grid[x][y+1]   as usize } else { 0 };
-			neighbour_count += if x > 0  		   { grid[x-1][y]   as usize } else { 0 };
-			neighbour_count += if y > 0  		   { grid[x][y-1]   as usize } else { 0 };
+			neighbour_count += if x > 0	       { grid[x-1][y]   as usize } else { 0 };
+			neighbour_count += if y > 0  	       { grid[x][y-1]   as usize } else { 0 };
 
 			neighbour_count
 		}
